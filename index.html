@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora-IMC</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="javascript/main.js" defer></script>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Calculadora-IMC</h1>
+        </header>
+        <div class="calc">
+            <form action="#">
+                <label >Digite seu peso:</label><input type="text" placeholder="digite aqui seu peso..." id="weight" oninput="this.value = this.value.replace(',', '.')">
+                <label >Digite sua altura:</label><input type="text" placeholder="digite aqui sua altura" id="height" oninput="this.value = this.value.replace(',', '.')">
+                <button class="result">Calcular</button>
+            </form>
+            <div class="answer"></div>
+        </div>
+    </main>
+</body>
+</html>
