@@ -4,7 +4,7 @@ Uma simples Calculadora de Índice de Massa Corporal (IMC) desenvolvida utilizan
 
 ## Descrição
 
-Este projeto é uma calculadora interativa que permite aos usuários calcular seu IMC com base no peso e altura inseridos. O IMC é então classificado em faixas de peso, proporcionando uma indicação geral da condição física.
+Este projeto é uma calculadora interativa que permite aos usuários calcular seu IMC com base no peso e altura inseridos.
 
 ## Funcionalidades
 
